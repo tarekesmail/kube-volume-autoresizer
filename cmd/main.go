@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/martinohmann/kube-volume-cleaner/pkg/config"
-	"github.com/martinohmann/kube-volume-cleaner/pkg/controller"
+	"github.com/tarekesmail/kube-volume-resizer/pkg/config"
+	"github.com/tarekesmail/kube-volume-resizer/pkg/controller"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
