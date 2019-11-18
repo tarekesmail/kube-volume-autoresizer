@@ -25,7 +25,7 @@ const (
 	// DefaultControllerID is the default ID of the controller used to annotate
 	// PersistentVolumeClaims with in order to allow multiple controllers to
 	// coexist without interfering.
-	DefaultControllerID = "kube-volume-cleaner"
+	DefaultControllerID = "kube-volume-resizer"
 )
 
 // Options holds the options that can be configured via cli flags.
