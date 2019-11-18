@@ -1,8 +1,8 @@
 ---
-project_name: kube-volume-cleaner
+project_name: kube-volume-autoresizer
 builds:
   - main: ./main.go
-    binary: kube-volume-cleaner
+    binary: kube-volume-autoresizer
     ldflags:
       - -s -w
     env:
@@ -24,15 +24,15 @@ dockers:
   - goos: linux
     goarch: amd64
     image_templates:
-      - "mohmann/kube-volume-cleaner:latest"
-      - "mohmann/kube-volume-cleaner:{{ .Tag }}"
-      - "mohmann/kube-volume-cleaner:v{{ .Major }}"
+      - "tarekesmail/kube-volume-autoresizer:latest"
+      - "tarekesmail/kube-volume-autoresizer:{{ .Tag }}"
+      - "tarekesmail/kube-volume-autoresizer:v{{ .Major }}"
     binaries:
       - kube-volume-cleaner
 release:
   github:
-    owner: martinohmann
-    name: kube-volume-cleaner
+    owner: tarekesmail
+    name: kube-volume-autoresizer
 checksum:
   name_template: 'checksums.txt'
 snapshot:
