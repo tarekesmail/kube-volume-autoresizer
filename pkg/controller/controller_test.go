@@ -7,7 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/martinohmann/kube-volume-cleaner/pkg/config"
+	"github.com/tarekesmail/kube-volume-autoresizer/pkg/config"
+
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	appsv1 "k8s.io/api/apps/v1"
