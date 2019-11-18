@@ -1,6 +1,6 @@
 package main
 
-import "github.com/martinohmann/kube-volume-cleaner/cmd"
+import "github.com/tarekesmail/kube-volume-autoresizer/cmd"
 
 func main() {
 	cmd.Execute()
