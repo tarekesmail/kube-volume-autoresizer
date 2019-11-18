@@ -1,4 +1,4 @@
-module github.com/martinohmann/kube-volume-cleaner
+module github.com/tarekesmail/kube-volume-autoresizer
 
 go 1.12
 
