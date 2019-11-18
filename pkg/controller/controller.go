@@ -5,8 +5,8 @@ import (
 
 	"k8s.io/klog"
 
-	"github.com/martinohmann/kube-volume-cleaner/pkg/config"
-	"github.com/martinohmann/kube-volume-cleaner/pkg/listwatch"
+	"github.com/tarekesmail/kube-volume-resizer/pkg/config"
+	"github.com/tarekesmail/kube-volume-resizer/pkg/controller"
 	"github.com/pkg/errors"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
