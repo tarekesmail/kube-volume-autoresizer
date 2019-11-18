@@ -28,7 +28,7 @@ dockers:
       - "tarekesmail/kube-volume-autoresizer:{{ .Tag }}"
       - "tarekesmail/kube-volume-autoresizer:v{{ .Major }}"
     binaries:
-      - kube-volume-cleaner
+      - kube-volume-autoresizer
 release:
   github:
     owner: tarekesmail
