@@ -5,8 +5,8 @@ import (
 
 	"k8s.io/klog"
 
-	"github.com/tarekesmail/kube-volume-resizer/pkg/config"
-	"github.com/tarekesmail/kube-volume-resizer/pkg/controller"
+	"github.com/tarekesmail/kube-volume-autoresizer/pkg/config"
+	"github.com/tarekesmail/kube-volume-autoresizer/pkg/controller"
 	"github.com/pkg/errors"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
